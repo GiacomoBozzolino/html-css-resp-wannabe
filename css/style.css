@@ -141,19 +141,41 @@ img {
  /* RISOLUZIONE SMARTPHONE */
  @media screen and (max-width:480px) {
     .container{
-       max-width: 480px;
-       margin: 0;
+       max-width: 480px;  
       
     }
+    
     .row{
         flex-direction: column;
         flex-wrap: wrap;
-        
         align-content: center;
     }
 
-    .lessons .col, .steps .col{
+    .lessons .col, .steps .col, .why-us .col-left,  .why-us .col-right{
         width: 100%;
-        padding-bottom:40px;
+        padding-bottom: 40px;
     }
+    
+    p{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+    
+    img{
+        margin-top: 20px;
+    }
+ .why-us{
+    background-color: black;
+ }
  }
