@@ -135,3 +135,25 @@ img {
        max-width: 768px;
     }
  }
+
+ /* FINE RISOLUZIONE TABLET */
+
+ /* RISOLUZIONE SMARTPHONE */
+ @media screen and (max-width:480px) {
+    .container{
+       max-width: 480px;
+       margin: 0;
+      
+    }
+    .row{
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        align-content: center;
+    }
+
+    .lessons .col, .steps .col{
+        width: 100%;
+        padding-bottom:40px;
+    }
+ }
