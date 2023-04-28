@@ -134,15 +134,22 @@ img {
     .container{
        max-width: 100%;
     }
+    .site-header{
+        max-width: 100%;
+
+    }
  }
 
  /* FINE RISOLUZIONE TABLET */
 
  /* RISOLUZIONE SMARTPHONE */
  @media screen and (max-width:480px) {
+    .site-header{
+        max-width: 100%;
+
+    }
     .container{
        max-width: 100%;  
-      
     }
 
     .row{
